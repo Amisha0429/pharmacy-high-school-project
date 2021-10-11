@@ -53,7 +53,6 @@ class userlist  //to store list of users
   char users[100][50];
 };
 
-
 class user  //to store account details
 {
   public:
@@ -131,7 +130,6 @@ void namecutter(char name[])
   fo.close();
 }
 
-
 int crtusr()
 {
    clrscr();
@@ -206,8 +204,6 @@ int crtusr()
    return 0;
 }
 
-
-
 void chkusrlst()
 {
   ifstream usrlst;
@@ -250,7 +246,6 @@ void chkmedlst()
    }
   medlst.close();
 }
-
 
 int showmeds()
 {
@@ -329,10 +324,6 @@ int showmeds()
     else{ goto page1;}
 }
 
-
-
-
-
 void pur_ret(char name[])
 {
   clrscr();
@@ -350,14 +341,6 @@ void pur_ret(char name[])
   cout<<" 6. "<<"Total\t\t"<<u.totp<<"\t\t"<<u.totr;show2();getch();
 }
 
-  
-
-
-
-
-
-
-
 void showuserlist()
 {
   clrscr();
@@ -372,8 +355,6 @@ void showuserlist()
   show2();
   getch();
 }
-
-
 
 int openacc()
 {
