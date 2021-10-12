@@ -1,4 +1,4 @@
-# Pharmacy-High-school-project
+# Pharmacy-High-school-Project
 
 # ABSTRACT
 The programming language used for the project is C++. 
